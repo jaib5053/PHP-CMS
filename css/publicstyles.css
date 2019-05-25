@@ -1,0 +1,136 @@
+.author-image{
+  height: 200px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+}
+.author-about{
+
+}
+.navbar-nav li {
+  font-weight: bold;
+  font-family: bitter,georgia,times,"times new roman",serif;
+  font-size: 1.2em;
+
+}
+
+ li a{
+  color: #FFFFFF;
+}
+.bor{
+  border-bottom: 10px solid  #FF5733;
+}
+body {
+  padding-top: 53px;
+font-family: 'Montserrat', sans-serif;
+
+
+
+}
+#Title{
+  font-family: bitter,georgia,"times new roman",times,serif;
+  font-weight: bold;
+  color:#005E90;
+}
+#Title:hover{
+  color: #0090DB;
+}
+.description{
+  color: #868686;
+  font-weight: bold;
+  margin-top: -2px;
+}
+
+.post{
+  font-size: 1.1em;
+  font-family: "lucida sans unicode","lucida Grande",sans-serif;
+  text-align: justify;
+}
+.blogpost{
+  /* background-color: #f5f5f5; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+.border{
+  border-bottom: 5px solid #5dade2;
+}
+.comments{
+
+  font-size: 1em;
+
+  font-family: fantasy;
+  text-align: justify;
+}
+.comm-name{
+  font-weight: bold;
+    font-size: 1.5em;
+}
+.heading{
+  font-size: 1.5em;
+
+}
+.heading:hover{
+  font-weight: bold;
+}
+.ad{
+  margin-bottom: 15px;
+
+}
+.panel{
+  margin-top: 10px;
+}
+.panel-body{
+  font-size: 1.2em;
+
+}
+.category{
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.highlight{
+  color: red;
+  font-weight: bold;
+}
+.highlight:hover{
+  color:#D00000 ;
+  font-weight: bold;
+}
+.post-heading{
+  font-family: bitter,georgia,"times new roman",times,serif;
+  font-weight: bold;
+  margin-bottom: 25px;
+
+}
+.footer{
+  background-color: #FF5733;
+  color: #FFFFFF;
+  height:100px;
+  padding-top: 25px;
+  padding-left: 100px;
+}
+.li{
+font-family: "times new roman";
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  border-left: 2px solid #159cf7;
+}
+.li:hover{
+  text-decoration: none;
+    color: #159cf7;
+    border-left: 2px solid #FFFFFF;
+}
+ul {
+  list-style-type: none;
+}
+.info{
+  color: #FFFFFF;
+}
+.navbar-default{
+  background-color: #D3D3D3;
+
+}

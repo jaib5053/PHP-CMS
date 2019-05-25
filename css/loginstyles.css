@@ -1,0 +1,125 @@
+body{
+  background: #4568DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.h1{
+  color: white;
+  font-weight: bold;
+  
+
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
+
+body {
+  background-color:#222;
+}
+
+.wrapper {
+/*
+  -webkit-transform: translate(-50%,-50%); */
+}
+
+h1 a {
+  color: #fff;
+  font-size: 2em;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+
+a.effect-box:after,
+a.effect-box:before {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+
+}
+
+a.effect-box:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1,0);
+	transform: scale(1,0);
+}
+
+a.effect-box:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+a.effect-box:hover:after,
+a.effect-box:hover:before {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.inner{
+
+background-color: red;
+
+margin-top: 5%;
+height: 350px;
+}
+.bg{
+  background:url('login.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.outer{
+  padding-left:0px;
+  padding-right:0px;
+
+
+}
+.row1{
+  height: 25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid white;
+}
+.row2{
+  height: 25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid white;
+
+}
+.back a {
+    color: white;
+}
+.back a:hover{
+    color: #39FF14;
+
+}
+
+.footer{
+  color: white;
+  font-size: 25px;
+  margin-top: 85px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+img{
+  height: 150px;
+  width: 150px;
+}

@@ -1,0 +1,53 @@
+.scroll{
+  height: 300px;
+
+  overflow-y: scroll;
+}
+
+body{
+  font-family: 'arial', sans-serif;
+  background-color: #2f4050;
+}
+.col-sm-10{
+  background-color: #ffffff;
+  min-height: 100vh;
+
+}
+#side_menu a {
+  color: #9fb1c2;
+}
+#side_menu .active a {
+  color: #ffffff;
+  background-color: #27AAE1;
+  font-weight: bold;
+}
+#side_menu a:hover{
+  color: #ffffff;
+  background-color: #1ab394;
+  font-weight: bold;
+  display: block;
+}
+.col-sm-2 h1{
+  border-bottom: 2px solid white;
+  color: #ffffff;
+}
+.footer{
+  color: white;
+  text-align: center;
+  background-color: #1ab394;
+  height: 100%;
+  margin-top: 4px;
+
+}
+.header{
+  font-size: 20px;
+  margin-bottom: 4px;
+  color: white;
+  text-align: center;
+  background-color: #1ab394;
+  height: 100%;
+}
+textarea {
+
+resize: vertical;
+}
